@@ -12,7 +12,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $cuerpoMensaje .= "Mensaje: $mensaje\n";
 
   
-    mail($destinatario, $asunto, $cuerpoMensaje);
+    if (mail($destinatario, $asunto, $cuerpoMensaje)) {
+    echo "Correo enviado con éxito";
+} else {
+    echo "Error al enviar el correo";
+}
 
     
     echo '<script>alert("El correo ha sido enviado. ¡Gracias!");</script>';
