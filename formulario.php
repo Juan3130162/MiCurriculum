@@ -15,7 +15,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($destinatario, $asunto, $cuerpoMensaje);
 
     
-    header("Location: gracias.html");
+    echo '<script>alert("El correo ha sido enviado. ¡Gracias!");</script>';
+    echo '<script>window.location.href = "tu_pagina_actual.php";</script>';
     exit();
 }
 ?>
