@@ -1,0 +1,112 @@
+#index {
+    font-family: 'consolas', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    position: relative;
+}
+
+header {
+    background-color: #217427;
+    padding: 1em;
+    text-align: center;
+    transform: skewY(-3deg);
+    position: relative;
+}
+
+.grupo {
+    transform: skewY(3deg);
+    color: #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #217427;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em;
+
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    max-width: 600px; 
+    margin: 0 auto;
+    background-color: #217427; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5BDC7E;
+}
+
+#particles-js{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+#contacto h2 {
+    color: black;
+    background-color: #217427;
+    border-radius: 10px;
+    height: 60px;
+    transform: skewY(-3deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+
+#contactofondo {
+    font-family: 'consolas', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondosobremi.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+}
+
+#contacto span {
+    transform: skewY(3deg);
+}

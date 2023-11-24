@@ -1,0 +1,87 @@
+body {
+    font-family: 'consolas', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondosobremi.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+}
+
+section {
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    color: black;
+    background-color: #217427;
+    border-radius: 10px;
+    height: 60px;
+    transform: skewY(-3deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 span {
+    transform: skewY(3deg); 
+}
+
+p {
+    line-height: 1.6;
+    color: black;
+    background-color: #217427;
+    border-radius: 10px;
+    transform: skewY(-3deg);
+    display: inline-block; 
+    margin: 0; 
+    padding: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p span {
+    display: inline-block; 
+    transform: skewY(3deg); 
+    margin: 0; 
+    padding: 0; 
+}
+
+.Me {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+ul {
+    background-color: #217427;
+    color: black;
+    display: table;
+    border-radius: 10px;
+    
+}
+
+li {
+    padding: 10px;
+}
+
+.tabla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.Diploma {
+    width: 300px; 
+    height: 250px;
+    margin-left: 30px;
+    border: 3px solid #000;
+}
