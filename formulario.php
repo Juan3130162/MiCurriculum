@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     
     echo '<script>alert("El correo ha sido enviado. ¡Gracias!");</script>';
-    echo '<script>window.location.href = "tu_pagina_actual.php";</script>';
+    echo '<script>window.location.href = "contacto.html";</script>';
     exit();
 }
 ?>
